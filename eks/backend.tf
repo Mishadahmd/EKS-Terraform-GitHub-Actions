@@ -10,7 +10,7 @@ terraform {
     bucket         = "terraformbackend-mishad"
     region         = "ap-south-1"
     key            = "terraformbackend/terraform.tfstate"
-    dynamodb_table = "Lock-Files"
+#    dynamodb_table = "Lock-Files"
     encrypt        = true
   }
 }
